@@ -1,7 +1,7 @@
-# 🧠 Fake Job Detection Baseline Pipeline — Day-wise Implementation
+# Fake Job Detection Baseline Pipeline
 
 
-## 🧩 Day 2 — Data Understanding
+#Day 2 — Data Understanding
 
 import pandas as pd
 
@@ -37,7 +37,7 @@ Insights:
 3 There is a strong class imbalance: real jobs >> fake jobs.
 """)
 
-## 🧩 Day 3 — Text Cleaning and Preprocessing
+#Day 3 — Text Cleaning and Preprocessing
 
 import pandas as pd
 import re
@@ -204,9 +204,7 @@ Improving data balance or using class weights can help improve detection.
 """)
 
 
-## Day 6 — Model Analysis and Saving
-
-
+## Day 6 — Model Analysis and Integration
 import joblib
 import numpy as np
 
